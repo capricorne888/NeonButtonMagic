@@ -10,7 +10,6 @@
     const idColorMap = new Map();
     let colorIndex = 0;
 
-    // Function to generate a random neon color
     function getRandomNeonColor() {
         const letters = '0123456789ABCDEF';
         let color = '#';
@@ -42,18 +41,18 @@
         const id = button.id || button.innerText || Math.random().toString();
         const color = getColorForId(id);
 
-        button.style.fontSize = '20px';
-        button.style.padding = '15px 30px';
-        button.style.border = `2px solid ${color}`;
-        button.style.color = color;
-        button.style.backgroundColor = 'transparent';
-        button.style.borderRadius = '5px';
-        button.style.position = 'relative';
-        button.style.overflow = 'hidden';
-        button.style.textTransform = 'uppercase';
-        button.style.transition = 'all 0.3s ease-in-out';
-        button.style.boxShadow = `0 0 10px ${color}, 0 0 20px ${color}`;
-        
+        button.style.setProperty('font-size', '20px', 'important');
+        button.style.setProperty('padding', '15px 30px', 'important');
+        button.style.setProperty('border', `2px solid ${color}`, 'important');
+        button.style.setProperty('color', color, 'important');
+        button.style.setProperty('background-color', 'transparent', 'important');
+        button.style.setProperty('border-radius', '5px', 'important');
+        button.style.setProperty('position', 'relative', 'important');
+        button.style.setProperty('overflow', 'hidden', 'important');
+        button.style.setProperty('text-transform', 'uppercase', 'important');
+        button.style.setProperty('transition', 'all 0.3s ease-in-out', 'important');
+        button.style.setProperty('box-shadow', `0 0 10px ${color}, 0 0 20px ${color}`, 'important');
+
         const span = document.createElement('span');
         span.innerText = button.innerText;
         span.style.position = 'relative';
@@ -80,4 +79,4 @@
 
         button.appendChild(glowEffect);
     });
-})();
+})()
