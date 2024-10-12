@@ -1,8 +1,6 @@
 # NeonButtonMagic
 NeonButtonMagic is a JavaScript library that transforms standard buttons into vibrant, neon-styled elements. It dynamically assigns unique colors and adds stunning glow effects, enhancing your web application's visual appeal. Just include the script in your HTML to bring your buttons to life with eye-catching colors and radiant effects!
 
-# README for JavaScript Button Styling Script
-
 ## Overview
 
 This JavaScript code dynamically styles all buttons on a webpage with a neon glow effect. It assigns unique colors to each button based on their ID or text content, enhancing the visual appeal and interactivity of your web application.
