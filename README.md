@@ -11,6 +11,10 @@ This JavaScript code dynamically styles all buttons on a webpage with a neon glo
 - **Dynamic Styling**: Applies various CSS styles to buttons, including font size, padding, border, and glow effects.
 - **Interactive Glow Effect**: Adds a glowing background effect that changes with the button's assigned color.
 
+## Demo
+
+Check out the [Demo Page](http://checkthese.com/demo/NeonButtonMagic/) to see NeonButtonMagic in action!
+
 ## Code Explanation
 
 ### Base Colors
