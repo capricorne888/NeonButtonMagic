@@ -114,4 +114,6 @@ Applies CSS styles to each button, including text shadow and box shadow for the 
 To use this script, simply include it in your HTML file. It will automatically apply the neon styling to all `<button>` elements on the page. You can also use jsdelivr if you don'y want to run it yourself.
 I used a url shortener to not have to manually change the updated url everytime on my pages, uou can also do it by simply using:
 
+```javascript
 <script src="http://kikurl.com/neonbtn"></script> 
+```
