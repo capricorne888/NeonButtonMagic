@@ -128,3 +128,7 @@ I used a url shortener to not have to manually change the updated url everytime 
 ```javascript
 <script src="http://kikurl.com/neonbtn"></script> 
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
